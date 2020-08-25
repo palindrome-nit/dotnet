@@ -1,0 +1,432 @@
+<VisualStudioProject>
+    <VisualBasic
+        ProjectType = "Local"
+        ProductVersion = "7.0.9466"
+        SchemaVersion = "1.0"
+        ProjectGuid = "{DE284C09-5BC6-4B47-9F51-5696BE054566}"
+    >
+        <Build>
+            <Settings
+                ApplicationIcon = ""
+                AssemblyKeyContainerName = ""
+                AssemblyName = "TSN - Ticket Booking"
+                AssemblyOriginatorKeyFile = ""
+                AssemblyOriginatorKeyMode = "None"
+                DefaultClientScript = "JScript"
+                DefaultHTMLPageLayout = "Grid"
+                DefaultTargetSchema = "IE50"
+                DelaySign = "false"
+                OutputType = "WinExe"
+                OptionCompare = "Binary"
+                OptionExplicit = "On"
+                OptionStrict = "Off"
+                RootNamespace = "TSN___Ticket_Booking"
+                StartupObject = "TSN___Ticket_Booking.F11___Login"
+            >
+                <Config
+                    Name = "Debug"
+                    BaseAddress = "285212672"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = ""
+                    DefineDebug = "true"
+                    DefineTrace = "true"
+                    DebugSymbols = "true"
+                    IncrementalBuild = "true"
+                    Optimize = "false"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "1"
+                />
+                <Config
+                    Name = "Release"
+                    BaseAddress = "285212672"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = ""
+                    DefineDebug = "false"
+                    DefineTrace = "true"
+                    DebugSymbols = "false"
+                    IncrementalBuild = "false"
+                    Optimize = "true"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "1"
+                />
+            </Settings>
+            <References>
+                <Reference
+                    Name = "System"
+                    AssemblyName = "System"
+                />
+                <Reference
+                    Name = "System.Data"
+                    AssemblyName = "System.Data"
+                />
+                <Reference
+                    Name = "System.Drawing"
+                    AssemblyName = "System.Drawing"
+                />
+                <Reference
+                    Name = "System.Windows.Forms"
+                    AssemblyName = "System.Windows.Forms"
+                />
+                <Reference
+                    Name = "System.XML"
+                    AssemblyName = "System.Xml"
+                />
+                <Reference
+                    Name = "ADODB"
+                    Guid = "{00000201-0000-0010-8000-00AA006D2EA4}"
+                    VersionMajor = "2"
+                    VersionMinor = "1"
+                    Lcid = "0"
+                    WrapperTool = "primary"
+                />
+                <Reference
+                    Name = "microsoft.visualbasic.compatibility"
+                    AssemblyName = "Microsoft.VisualBasic.Compatibility"
+                    HintPath = "c:\winnt\microsoft.net\framework\v1.0.3705\microsoft.visualbasic.compatibility.dll"
+                />
+                <Reference
+                    Name = "Microsoft.VisualBasic"
+                    AssemblyName = "Microsoft.VisualBasic"
+                    HintPath = "C:\WINNT\Microsoft.NET\Framework\v1.0.3705\Microsoft.VisualBasic.dll"
+                />
+                <Reference
+                    Name = "stdole"
+                    AssemblyName = "stdole"
+                    HintPath = "C:\Program Files\Microsoft.NET\Primary Interop Assemblies\stdole.dll"
+                />
+                <Reference
+                    Name = "CrystalDecisions.Shared"
+                    AssemblyName = "CrystalDecisions.Shared"
+                    HintPath = "C:\Program Files\Common Files\Crystal Decisions\1.0\Managed\CrystalDecisions.Shared.dll"
+                />
+                <Reference
+                    Name = "CrystalDecisions.ReportSource"
+                    AssemblyName = "CrystalDecisions.ReportSource"
+                    HintPath = "C:\Program Files\Common Files\Crystal Decisions\1.0\Managed\CrystalDecisions.ReportSource.dll"
+                />
+                <Reference
+                    Name = "CrystalDecisions.CrystalReports.Engine"
+                    AssemblyName = "CrystalDecisions.CrystalReports.Engine"
+                    HintPath = "C:\Program Files\Common Files\Crystal Decisions\1.0\Managed\CrystalDecisions.CrystalReports.Engine.dll"
+                />
+                <Reference
+                    Name = "crystaldecisions.windows.forms"
+                    AssemblyName = "CrystalDecisions.Windows.Forms"
+                    HintPath = "c:\winnt\assembly\gac\crystaldecisions.windows.forms\9.1.3300.0__692fbea5521e1304\crystaldecisions.windows.forms.dll"
+                />
+                <Reference
+                    Name = "System.Web.Services"
+                    AssemblyName = "System.Web.Services"
+                    HintPath = "C:\WINNT\Microsoft.NET\Framework\v1.0.3705\System.Web.Services.dll"
+                />
+            </References>
+            <Imports>
+                <Import Namespace = "Microsoft.VisualBasic" />
+                <Import Namespace = "System" />
+                <Import Namespace = "System.Collections" />
+                <Import Namespace = "System.Data" />
+                <Import Namespace = "System.Drawing" />
+                <Import Namespace = "System.Diagnostics" />
+                <Import Namespace = "System.Windows.Forms" />
+            </Imports>
+        </Build>
+        <Files>
+            <Include>
+                <File
+                    RelPath = "AssemblyInfo.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "CrystalReport1.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "CrystalReport1.vb"
+                />
+                <File
+                    RelPath = "CrystalReport1.vb"
+                    DependentUpon = "CrystalReport1.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "CrystalReport2.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "CrystalReport2.vb"
+                />
+                <File
+                    RelPath = "CrystalReport2.vb"
+                    DependentUpon = "CrystalReport2.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "CrystalReport3.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "CrystalReport3.vb"
+                />
+                <File
+                    RelPath = "CrystalReport3.vb"
+                    DependentUpon = "CrystalReport3.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "CrystalReport4.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "CrystalReport4.vb"
+                />
+                <File
+                    RelPath = "CrystalReport4.vb"
+                    DependentUpon = "CrystalReport4.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "CrystalReport5.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "CrystalReport5.vb"
+                />
+                <File
+                    RelPath = "CrystalReport5.vb"
+                    DependentUpon = "CrystalReport5.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "CrystalReport6.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "CrystalReport6.vb"
+                />
+                <File
+                    RelPath = "CrystalReport6.vb"
+                    DependentUpon = "CrystalReport6.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "F1 - TTM.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "F1 - TTM.resx"
+                    DependentUpon = "F1 - TTM.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "F11 - Login.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "F11 - Login.resx"
+                    DependentUpon = "F11 - Login.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "F12 - Splash.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "F12 - Splash.resx"
+                    DependentUpon = "F12 - Splash.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "F2 - TM.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "F2 - TM.resx"
+                    DependentUpon = "F2 - TM.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "F3 - TMD.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "F3 - TMD.resx"
+                    DependentUpon = "F3 - TMD.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "F4 - PMD.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "F4 - PMD.resx"
+                    DependentUpon = "F4 - PMD.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "F5 - CMD.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "F5 - CMD.resx"
+                    DependentUpon = "F5 - CMD.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "F6- RMD.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "F6- RMD.resx"
+                    DependentUpon = "F6- RMD.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "F7 - SM.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "F7 - SM.resx"
+                    DependentUpon = "F7 - SM.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "F8 - CM.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "F8 - CM.resx"
+                    DependentUpon = "F8 - CM.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "F9 - STM.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "F9 - STM.resx"
+                    DependentUpon = "F9 - STM.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "MDIMain.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "MDIMain.af.resx"
+                    DependentUpon = "MDIMain.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "MDIMain.af-ZA.resx"
+                    DependentUpon = "MDIMain.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "MDIMain.resx"
+                    DependentUpon = "MDIMain.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "ModConnection.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "R1.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "R1.resx"
+                    DependentUpon = "R1.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "R2.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "R2.resx"
+                    DependentUpon = "R2.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "R3.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "R3.resx"
+                    DependentUpon = "R3.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "R4.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "R4.resx"
+                    DependentUpon = "R4.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "R5.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "R5.resx"
+                    DependentUpon = "R5.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "R6.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "R6.resx"
+                    DependentUpon = "R6.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+            </Include>
+        </Files>
+        <StartupServices>
+            <Service ID = "{CF845C55-C321-4742-B673-E6212D061ED9}" />
+        </StartupServices>
+    </VisualBasic>
+</VisualStudioProject>
+
