@@ -10,7 +10,7 @@ pool:
   vmImage: 'windows-latest'
 
 variables:
-  solution: '**/**/*.sln'
+  solution: 'TSN_Ticket_Booking/TSN - Ticket Booking/*.sln'
   buildPlatform: 'Any CPU'
   buildConfiguration: 'Release'
 
